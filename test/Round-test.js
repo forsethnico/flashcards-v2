@@ -73,4 +73,16 @@ describe("Round", function () {
   it("should give feedback for an incorrect guess", function () {
     expect(round.takeTurn("accessor method")).to.equal("incorrect!");
   });
+
+  it("should make the next card the current card", function () {
+    round.takeTurn("accessor method");
+    expect(round.returnCurrentCard()).to.equal(card2);
+  });
+
+  it("should have a method to calculate percent of correct guesses", function () {
+    round.takeTurn("accessor method");
+    round.takeTurn("map()");
+    round.takeTurn("false");
+    expect(round.calculatePercentCorrect()).to.equal(33);
+  });
 });
