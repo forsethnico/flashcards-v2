@@ -9,11 +9,13 @@ The project spec and rubric can be found [here](https://frontend.turing.edu/proj
 ## Working Application
 The game starts by typing ```node index.js``` in the terminal. Users are prompted for each question, have the opportunity to select an answer, and will be given feedback if the guess was correct or incorrect:
 
-![flash cards gif](insert url here)
+![flashcards-1](https://user-images.githubusercontent.com/18154724/186328459-cf1198e8-b87f-40b1-a7e8-f8757934b41e.gif)
+
 
 At the end of the deck of cards, the user will be presented with a final score of the % answered correctly and their time (in minutes and seconds) it took to complete the exercise.
 
-![flash cards gif](insert url here)
+![flashcards-2](https://user-images.githubusercontent.com/18154724/186328496-4a4120dd-6177-44f8-9a96-bdca9e551611.gif)
+
 
 ## Technologies Used
 The core learning goal of this project was to practice test driven development (TDD) by writing unit tests using Mocha testing framework and Chai assertion library to contribute to a partially constructed object-oriented application. The language used in JavaScript. There are no front end HTML and CSS files since the application is run in the command line. 
