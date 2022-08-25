@@ -29,6 +29,7 @@ class Round {
       `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
     );
     console.timeLog("Game Run Time")
+    return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
   }
 }
 
